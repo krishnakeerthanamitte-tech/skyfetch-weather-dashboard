@@ -266,4 +266,4 @@ WeatherApp.prototype.showError = function (message) {
 
 
 // Create App Instance
-const app = new WeatherApp("511e162c79834cdf0e225f834df53af6");
+const app = new WeatherApp(CONFIG.API_KEY);

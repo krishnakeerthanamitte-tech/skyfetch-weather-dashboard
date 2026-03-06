@@ -185,3 +185,54 @@ font-size:1.5rem;
 color:#667eea;
 font-weight:bold;
 }
+.recent-searches-section{
+margin:20px 0;
+}
+
+.recent-header{
+display:flex;
+justify-content:space-between;
+align-items:center;
+margin-bottom:10px;
+}
+
+#recent-searches-container{
+display:flex;
+flex-wrap:wrap;
+gap:10px;
+justify-content:center;
+}
+
+.recent-search-btn{
+padding:8px 16px;
+background:#f0f0f0;
+border:none;
+border-radius:20px;
+cursor:pointer;
+font-size:0.9rem;
+transition:all 0.3s;
+}
+
+.recent-search-btn:hover{
+background:#667eea;
+color:white;
+transform:translateY(-2px);
+}
+
+.recent-search-btn:active{
+transform:scale(0.95);
+}
+
+.clear-history-btn{
+font-size:0.8rem;
+padding:5px 10px;
+border:1px solid #ddd;
+background:white;
+cursor:pointer;
+border-radius:5px;
+}
+
+.clear-history-btn:hover{
+background:#ffdddd;
+color:red;
+}
